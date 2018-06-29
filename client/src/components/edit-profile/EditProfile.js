@@ -238,7 +238,7 @@ class CreateProfile extends Component {
                   value={this.state.location}
                   onChange={this.onChange}
                   error={errors.location}
-                  info="City or city & state suggested (eg. Boston, MA)"
+                  info="City or city & state suggested (eg. Bangalore, Karnataka)"
                 />
                 <TextFieldGroup
                   placeholder="* Skills"
